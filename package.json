@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.config.js"
   },
   "repository": "git+https://github.com/thalathalaylah/nekomimi-frontend.git",
   "author": "thalathalaylah <fragment.vertex@gmail.com>",
@@ -12,5 +13,12 @@
   "bugs": {
     "url": "https://github.com/thalathalaylah/nekomimi-frontend/issues"
   },
-  "homepage": "https://github.com/thalathalaylah/nekomimi-frontend#readme"
+  "homepage": "https://github.com/thalathalaylah/nekomimi-frontend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }
